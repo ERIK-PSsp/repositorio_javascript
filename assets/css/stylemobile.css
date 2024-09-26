@@ -49,9 +49,9 @@ header>h1 {
 }
 
 #burger {
-    background-color: #213f20;
+    background-color: #085405;
     display: block;
-    color: rgb(245, 245, 245);
+    color: rgb(24, 54, 0);
     text-align: center;
     margin: auto;
     padding: 7px;
@@ -60,11 +60,11 @@ header>h1 {
 }
 
 #burger:hover {
-    background-color: #c5c498;
+    background-color: #dbda86;
 }
 
 menu {
-    color: rgb(221, 247, 227);
+    color: rgb(224, 102, 102);
     text-align: center;
     list-style-type: none;
     width: 90vw;
@@ -80,16 +80,17 @@ menu>ul>li>a {
     padding: 7px;
     text-decoration: none;
     text-align: center;
-    background-color: #21203f;
+    background-color:  #00b4d8;
+
     border-radius: 0px 0px 0px 0px;
-    color: whitesmoke;
+    color: rgb(255, 0, 0);
     margin: auto;
 
 }
 
 menu>ul>li>a:hover {
-    background-color: #c5a898;
-    color: whitesmoke;
+    background-color: #52b69a;
+    color: rgb(255, 0, 0);
     text-decoration: none;
 }
 
@@ -233,7 +234,7 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
     body {
-        background-image:url("../back-pc.jpg");
+        background-image:url("../pcfundo.jpg");
     }
 
     #burger {
@@ -299,7 +300,7 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
 @media screen and (min-width: 1201px) {
     body {
-        background-image:url("../back-tv.jpg");
+        background-image:url("../tvfundo.jpg");
         background-repeat: repeat-x;
         background-attachment: fixed;
     }
@@ -356,66 +357,5 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
     img#tv {
         display: block;
-    }
-}
-@media screen and (min-width: 600p) and (max-width: 767px) {
-    body {
-        background-image:url("../back-phone.jpg");
-        background-repeat: repeat-x;
-        background-attachment: fixed;
-    }
-
-    #burger {
-        display: none;
-    }
-
-    menu {
-        display: block;
-        background-color: #21203f;
-    }
-
-    menu>ul>li {
-        display: inline-block;
-        background-color: #21203f;
-    }
-
-    main {
-        width: 90vw;
-        margin: auto;
-    }
-
-    article>h2 {
-        padding-bottom: 17px;
-    }
-
-    article>p {
-        text-align: justify;
-        margin-bottom: 17px;
-        text-indent: 17px;
-    }
-
-    footer {
-        width: 90vw;
-        margin: auto;
-    }
-
-    img#mobile {
-        display: block;
-    }
-
-    img#tablet {
-        display: none;
-    }
-
-    img#print {
-        display: none;
-    }
-
-    img#pc {
-        display: none;
-    }
-
-    img#tv {
-        display: none;
     }
 }
